@@ -1,0 +1,35 @@
+FULL CAPS HAIR — CLESSER
+========================
+
+ARQUIVOS
+index.html     Estrutura e textos fixos da página
+style.css      Identidade visual, cores, fontes, layout e responsividade
+config.js      PREÇO, LINK DE COMPRA, WHATSAPP, INSTAGRAM E DOSAGEM
+script.js      Menu mobile, botões e preenchimento da configuração
+assets/        Imagem original enviada do produto
+
+COMO USAR
+1. Abra index.html no navegador para visualizar.
+2. Edite config.js para preencher o preço, o link de compra e os contatos.
+3. Edite as variáveis no início de style.css para mudar cores e fontes.
+4. Para publicar, envie a pasta completa para sua hospedagem, mantendo a estrutura.
+
+ANTES DE PUBLICAR
+- Confira todas as informações de composição, dosagem e peso no rótulo oficial.
+- Preencha os dados comerciais e contatos reais em config.js.
+- Configure a tabela nutricional oficial, se disponível.
+- Adicione documentos institucionais e política de privacidade conforme necessário.
+- Se desejar, substitua a imagem de 666 x 375 por uma foto de produto maior,
+  com transparência, preservando o caminho assets/fullcaps.png.
+
+Este site não inclui checkout nem sistema de pagamento próprio.
+O botão de compra aponta para o endereço informado em config.js.
+
+ATUALIZAÇÃO: dados de composição, uso, restrições, conservação e FAQ integrados a partir do rótulo fornecido. PDF original em assets/rotulo-full-caps-hair.pdf. Preço, checkout, WhatsApp e redes sociais ainda precisam ser preenchidos no config.js. Conferir dados regulatórios e tabela nutricional com responsável técnico antes de publicar.
+
+
+PÁGINA DE OFERTAS (/ofertas)
+- O botão "Consultar disponibilidade" abre ofertas/ (ofertas/index.html + ofertas.js).
+- Edite kits, preços, imagens, selo e LINKS DE CHECKOUT em config.js > offers (campo checkoutUrl).
+- Sem checkoutUrl, o botão não simula compra: abre o WhatsApp (se configurado) ou mostra um aviso.
+- Em hospedagem estática, /ofertas funciona direto (pasta com index.html). Mantenha a estrutura de pastas.
